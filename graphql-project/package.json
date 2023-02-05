@@ -1,0 +1,23 @@
+{
+  "name": "graphql-project",
+  "version": "1.0.0",
+  "description": "Codigo base de un ejemplo donde se aprende a separar un archivo de GraphQL en multiples para que se pueda extender fácilmente cuando estamos creando APIs de GraphQL.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "Apollo-server",
+    "GraphQL",
+    "GraphQL-tag",
+    "Node"
+  ],
+  "author": "Axe10rellana",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  }
+}

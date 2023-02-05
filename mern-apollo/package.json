@@ -1,0 +1,36 @@
+{
+  "name": "mern-apollo",
+  "version": "1.0.0",
+  "description": "Código base del proyecto MERN GraphQL desde cero utilizando Apollo server.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --ignore client/ --inspect server/index.js"
+  },
+  "keywords": [
+    "Apollo",
+    "Cors",
+    "Dotenv",
+    "Express",
+    "GraphQL",
+    "GraphQL-tag",
+    "MongoDB",
+    "Mongoose",
+    "Node",
+    "Nodemon"
+  ],
+  "author": "Axe10rellana",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
