@@ -1,0 +1,35 @@
+{
+  "name": "graphql-blog-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Código base del ejemplo GraphQL Blog API donde se aprende a crear una API utilizando GraphQL, Node, Express, MongoDB y Json Web Tokens.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "dotenv",
+    "express",
+    "express-graphql",
+    "graphql",
+    "jsonwebtoken",
+    "mongodb",
+    "mongoose",
+    "node",
+    "nodemon"
+  ],
+  "author": "Axe10rellana",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
